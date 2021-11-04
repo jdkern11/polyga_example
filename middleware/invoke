@@ -5,4 +5,5 @@
 #
 /usr/bin/invoke_app "$@" -t polyga \
                          -C "start_jupyter -t -T @tool Silly_Test_Example.ipynb" \
-                         -u anaconda-6
+                         -u anaconda-7
+                         -r none
