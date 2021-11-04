@@ -1,2 +1,4 @@
 Planet_Silly
-#src/poetry.lock
+src/poetry.lock
+src/.venv/
+!.gitignore
