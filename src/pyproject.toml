@@ -1,12 +1,13 @@
 [tool.poetry]
-name = "polyga"
-version = "1.0.12"
-description = "Polymer Genetic Algorithm"
-authors = ["Joseph Kern <jkern34@gatech.edu>", "Chiho Kim <chiho.kim@gatech.edu>"]
-repository = "https://github.com/Ramprasad-Group/polyga.git"
+name = "polyga_example"
+version = "0.0.1"
+description = "Polymer Genetic Algorithm Example"
+authors = ["Joseph Kern <jkern34@gatech.edu>"]
+repository = "https://github.com/jdkern11/polyga_example.git"
 
 [tool.poetry.dependencies]
 python = ">=3.7.1,<3.10"
+polyga = "^1.0.12"
 numpy = "^1.2.4"
 scipy = "^1.7"
 rdkit-pypi = "^2021.3.3"
